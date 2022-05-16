@@ -54,7 +54,7 @@ from xigt.codecs import xigtxml
 from xigt.errors import XigtImportError
 
 try:
-    import toolbox
+    from toolbox import toolbox
 except ImportError:
     raise ImportError(
         'Could not import Toolbox module. Get it from here:\n'
